@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>RPS</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="RPS.css">
+</head>
+<body>
+
+  <div id= "infoArea">
+    <div class= "infoAreaCenter">
+<!--=========================================================================-->
+<!--=========================================================================-->
+      <div class= "" id= "comName">
+        <div class= "comTitle">
+          <h1 class= "text-center">Computer</h1>
+        </div>
+        <div class="comWins">
+
+        </div>
+      </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+      <div class= "text-center" id="middleName">
+        <h1 class= "PICK">Pick One!</h1>
+        <h1 class= "results"></h1>
+      </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+      <div class= "text-center" id="playerName">
+        <div class="playerTitle">
+          <h1>Player</h1>
+        </div>
+        <div class="playerWins">
+
+        </div>
+      </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+    </div>
+  </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+  <div id= "playArea">
+    <div class= "playAreaCenter">
+
+<!--=========================================================================-->
+<!--=========================================================================-->
+      <div class= "" id= "compContainer">
+
+        <img id=compPick src="rps/left.png"/>
+      </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+      <div class= "" id="middleContainer">
+        <div class="comWinContainer">
+          <h1 class= "text-center" id=comTitle>Computer</h1>
+          <h1 class= "text-center" id=comWin>0</h1>
+        </div>
+
+        <div class="tieContainer">
+          <h1 class= "text-center" id=tieTitle>Tie</h1>
+          <h1 class= "text-center" id=tie>0</h1>
+        </div>
+
+        <div class="playerWinContainer">
+          <h1 class= "text-center" id=playerTitle>Player</h1>
+          <h1 class= "text-center" id=playerWin>0</h1>
+        </div>
+      </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+      <div class= "" id="playerContainer">
+        <img id=playerPick src="rps/right.png" />
+
+        <div id= "buttonContainer">
+          <button type="button clickable" id="rock">Rock</button>
+          <button type="button clickable" id="paper">Paper</button>
+          <button type="button clickable" id="scissor">Scissor</button>
+        </div>
+      </div>
+<!--=========================================================================-->
+<!--=========================================================================-->
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src ="RPS.js"></script>
+</body>
+</html>

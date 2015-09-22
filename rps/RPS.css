@@ -1,0 +1,204 @@
+#playerContainer img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto 50px auto auto;
+  width: 350px;
+  height: 230px;
+}
+
+#compContainer img{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto auto auto 50px;
+  width: 350px;
+  height: 230px;
+}
+/*============================================================================*/
+/*============================================================================*/
+#compContainer{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  left: 0;
+  margin: 10px;
+  margin-left: 17px;
+  height:500px;
+  width: 500px;
+  /*background-color: black;*/
+}
+
+#middleContainer{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  height:500px;
+  width: 500px;
+  /*background-color: black;*/
+}
+
+#playerContainer{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  right: 0;
+  margin: 10px;
+  margin-right: 15px;
+  height:500px;
+  width: 500px;
+  /*background-color: black;*/
+}
+/*============================================================================*/
+/*============================================================================*/
+#comName{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  left: 0;
+  margin: 10px;
+  margin-left: 15px;
+  height:85px;
+  width: 500px;
+  border-bottom: 2px solid #d11250;
+  /*background-color: black;*/
+}
+
+#middleName{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  height:85px;
+  width: 500px;
+  /*background-color: black;*/
+}
+
+#playerName{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  right: 0;
+  margin: 10px;
+  margin-right: 15px;
+  height:85px;
+  width: 500px;
+  border-bottom: 2px solid #d11250;
+  /*background-color: black;*/
+}
+/*============================================================================*/
+/*============================================================================*/
+
+.comWinContainer{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  left: 0;
+  margin: 10px;
+  margin-top: 0;
+  margin-left: 15.5px;
+  height:500px;
+  width: 140px;
+  /*background-color: blue;*/
+}
+#comTitle{
+  position: relative;
+  top:170px;
+  color:white;
+}
+#comWin{
+  position: relative;
+  top:170px;
+  color:white;
+}
+
+.tieContainer{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  margin-top: 0;
+  height:500px;
+  width:140px;
+  /*background-color: blue;*/
+}
+
+#tie{
+  position: relative;
+  top:170px;
+  color:white;
+}
+#tieTitle{
+  position: relative;
+  top:170px;
+  color:white;
+}
+
+.playerWinContainer{
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  right: 0;
+  margin: 10px;
+  margin-top: 0;
+  margin-right: 14.5px;
+  height:500px;
+  width: 140px;
+  /*background-color: blue;*/
+}
+
+#playerWin{
+  position: relative;
+  top:170px;
+  color:white;
+}
+#playerTitle{
+  position: relative;
+  top:170px;
+  color:white;
+}
+/*============================================================================*/
+/*============================================================================*/
+
+#playArea {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  width: 1600px;
+  background-color: #0C65D0;
+}
+
+.playAreaCenter{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#infoArea {
+  position: relative;
+  top: 0;
+  margin: 0 auto;
+  width: 1600px;
+}
+
+.infoAreaCenter{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/*============================================================================*/
+/*============================================================================*/
+#buttonContainer{
+  position: absolute;
+  bottom: 0;
+  margin-left: 20%;
+}
+
+#buttonContainer button{
+  width: 100px;
+  padding: 10px 0;
+  font-size: 20px;
+}
